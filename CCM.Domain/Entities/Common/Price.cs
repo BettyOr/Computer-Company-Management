@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CCM.Domain.Entities.Common
 {
+    /// <summary>
+    /// Modela el precio
+    /// </summary>
     internal class Price
     {
     }
