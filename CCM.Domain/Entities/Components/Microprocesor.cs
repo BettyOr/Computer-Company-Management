@@ -4,33 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CCM.Domain.Abstract;
+using CCM.Domain.Entities.Types;
 
 namespace CCM.Domain.Entities.Components
 {
     /// <summary>
-    /// Modela el disco duro de la PC
+    /// Modela el microprocesador de la PC
     /// </summary>
-    public class HardDrive : IBrand
+    public class Microprocesor : IBrand
     {
         #region Properties
         /// <summary>
-        /// Modelo del disco duro
+        /// Modelo del microprocesador
         /// </summary>
         public string Model;
         /// <summary>
-        /// Capacidad de almacenamiento del disco duro
+        /// Velocidad del microprocesador
         /// </summary>
-        public float Storage { get; set; }
+        public int ProcessorSpeed;
         /// <summary>
-        /// Marca del disco duro
+        /// Marca del microprocesador
         /// </summary>
         public string Brand { get; }
         #endregion
 
-       public HardDrive(string model, string brand, float storage) 
-        { 
-            Model = model; 
-            Brand = brand; 
-            Storage = storage; }
+        public Microprocesor(string model, int processorSpeed, string brand)
+        {
+            Model = model;
+            ProcessorSpeed = processorSpeed;
+            Brand = brand;
+        }
     }
- }
+}
