@@ -8,5 +8,6 @@ namespace CCM.Domain.Entities.Company
 {
     internal class Company
     {
+
     }
 }
