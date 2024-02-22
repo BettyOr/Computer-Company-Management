@@ -12,6 +12,7 @@ namespace CCM.Domain.Entities.Common
     internal class Price
     {
         int MLC = 0;
+        string yoahora = "soy feliz";
        public int PriceID { get; set; }
     }
 }
