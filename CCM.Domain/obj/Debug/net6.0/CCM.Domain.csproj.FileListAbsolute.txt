@@ -1,0 +1,12 @@
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\bin\Debug\net6.0\CCM.Domain.deps.json
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\bin\Debug\net6.0\CCM.Domain.dll
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\bin\Debug\net6.0\CCM.Domain.pdb
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.csproj.AssemblyReference.cache
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.AssemblyInfoInputs.cache
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.AssemblyInfo.cs
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.csproj.CoreCompileInputs.cache
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.dll
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\refint\CCM.Domain.dll
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\CCM.Domain.pdb
+C:\Users\El Brian\Source\Repos\BettyOr\Computer-Company-Management\CCM.Domain\obj\Debug\net6.0\ref\CCM.Domain.dll
