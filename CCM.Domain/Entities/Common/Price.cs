@@ -11,5 +11,6 @@ namespace CCM.Domain.Entities.Common
     /// </summary>
     internal class Price
     {
+       public int PriceID { get; set; }
     }
 }
