@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BETTY-PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\El Brian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BETTY-PC\\Documents\\GitHub\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\El Brian\\Source\\Repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
       "projectName": "CCM.Domain",
-      "projectPath": "C:\\Users\\BETTY-PC\\Documents\\GitHub\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
-      "packagesPath": "C:\\Users\\BETTY-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BETTY-PC\\Documents\\GitHub\\Computer-Company-Management\\CCM.Domain\\obj\\",
+      "projectPath": "C:\\Users\\El Brian\\Source\\Repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
+      "packagesPath": "C:\\Users\\El Brian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\El Brian\\Source\\Repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\BETTY-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\El Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

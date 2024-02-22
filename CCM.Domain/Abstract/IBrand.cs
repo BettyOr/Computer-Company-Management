@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CCM.Domain.Abstract
 {
-    internal class IBrand
+    /// <summary>
+    /// Establece los miembros que debe tener una entidad que posee una marca.
+    /// </summary>
+    public interface IBrand
     {
+        #region Properties
+        public string Brand { get; }
+        #endregion
     }
 }
