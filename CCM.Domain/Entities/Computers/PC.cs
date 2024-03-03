@@ -30,6 +30,13 @@ namespace CCM.Domain.Entities.Computers
         /// </summary>
         public RAM RAM { get; set; }
         #endregion 
+        /// <summary>
+        /// Inicializa un objeto <see cref="PC"/>
+        /// </summary>
+        /// <param name="rAM"></param>
+        /// <param name="motherBoard"></param>
+        /// <param name="hardDrive"></param>
+        /// <param name="microprocesor"></param>
         public PC(RAM rAM, MotherBoard motherBoard, HardDrive hardDrive, Microprocesor microprocesor)
         {
             RAM = rAM;

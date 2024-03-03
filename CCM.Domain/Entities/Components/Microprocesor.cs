@@ -17,22 +17,34 @@ namespace CCM.Domain.Entities.Components
         /// <summary>
         /// Modelo del microprocesador
         /// </summary>
-        public string Model;
+        public string Model { get; }
         /// <summary>
         /// Velocidad del microprocesador
         /// </summary>
-        public int ProcessorSpeed;
+        public int ProcessorSpeed { get; }
+        /// <summary>
+        /// Tipo de conexión del microprocesador
+        /// </summary>
+        public ConnectionType ConnectionType { get; }
         /// <summary>
         /// Marca del microprocesador
         /// </summary>
         public string Brand { get; }
         #endregion
 
-        public Microprocesor(string model, int processorSpeed, string brand)
+        /// <summary>
+        /// Inicializa un objeto <see cref="Microprocesor"/>
+        /// </summary>
+        /// <param name="model"></param>
+        /// <param name="processorSpeed"></param>
+        /// <param name="brand"></param>
+        /// <param name="connectionType"></param>
+        public Microprocesor(string model, int processorSpeed, string brand, ConnectionType connectionType)
         {
             Model = model;
             ProcessorSpeed = processorSpeed;
             Brand = brand;
+            ConnectionType = connectionType;
         }
     }
 }
