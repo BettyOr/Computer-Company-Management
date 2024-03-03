@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj": {}
+    "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.DataAccess\\CCM.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj": {
+    "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.DataAccess\\CCM.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
-        "projectName": "CCM.Domain",
-        "projectPath": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.DataAccess\\CCM.DataAccess.csproj",
+        "projectName": "CCM.DataAccess",
+        "projectPath": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.DataAccess\\CCM.DataAccess.csproj",
         "packagesPath": "C:\\Users\\El Brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\obj\\",
+        "outputPath": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\El Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,7 +40,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
               "target": "Package",
               "version": "[6.0.27, )"
             }

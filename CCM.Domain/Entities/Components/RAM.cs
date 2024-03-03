@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CCM.Domain.Abstract;
+using CCM.Domain.Entities.Types;
 
 namespace CCM.Domain.Entities.Components
 {
@@ -21,13 +22,23 @@ namespace CCM.Domain.Entities.Components
         /// <summary>
         /// Marca de la memoria RAM
         /// </summary>
-        public string Brand { get; set; }
+        public string Brand { get; }
+        /// <summary>
+        /// Tipo de memoria RAM 
+        /// </summary>
+        public MemoryType MemoryType { get; }
         #endregion
-        RAM(int memorySize, string brand)           
+        /// <summary>
+        /// Inicializa un objeto <see cref="RAM"/>
+        /// </summary>
+        /// <param name="memorySize"></param>
+        /// <param name="brand"></param>
+        /// <param name="memoryType"></param>
+        RAM(int memorySize, string brand, MemoryType memoryType)           
         {
             MemorySize = memorySize;
             Brand = brand;
+            MemoryType = memoryType;
         }
-
     }
 }
