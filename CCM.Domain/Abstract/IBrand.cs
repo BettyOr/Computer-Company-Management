@@ -12,6 +12,9 @@ namespace CCM.Domain.Abstract
     public interface IBrand
     {
         #region Properties
+        /// <summary>
+        /// Modela una marca
+        /// </summary>
         public string Brand { get; }
         #endregion
     }

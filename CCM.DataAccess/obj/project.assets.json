@@ -328,6 +328,19 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "CCM.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.27"
+        },
+        "compile": {
+          "bin/placeholder/CCM.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CCM.Domain.dll": {}
+        }
       }
     }
   },
@@ -883,10 +896,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CCM.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CCM.Domain/CCM.Domain.csproj",
+      "msbuildProject": "../CCM.Domain/CCM.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CCM.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 6.0.27"
     ]
   },
@@ -916,7 +935,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj": {
+              "projectPath": "C:\\Users\\El Brian\\source\\repos\\BettyOr\\Computer-Company-Management\\CCM.Domain\\CCM.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

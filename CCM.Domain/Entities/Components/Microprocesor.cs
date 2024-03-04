@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CCM.Domain.Abstract;
+using CCM.Domain.Entities.Common;
 using CCM.Domain.Entities.Types;
 
 namespace CCM.Domain.Entities.Components
@@ -11,7 +12,7 @@ namespace CCM.Domain.Entities.Components
     /// <summary>
     /// Modela el microprocesador de la PC
     /// </summary>
-    public class Microprocesor : IBrand
+    public class Microprocesor : Entity, IBrand
     {
         #region Properties
         /// <summary>
@@ -30,7 +31,14 @@ namespace CCM.Domain.Entities.Components
         /// Marca del microprocesador
         /// </summary>
         public string Brand { get; }
+        
         #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Requerido por EntityFrameworkCore para migraciones.
+        /// </summary>
+        protected Microprocesor() { }
 
         /// <summary>
         /// Inicializa un objeto <see cref="Microprocesor"/>
@@ -46,5 +54,7 @@ namespace CCM.Domain.Entities.Components
             Brand = brand;
             ConnectionType = connectionType;
         }
+        #endregion
+
     }
 }
