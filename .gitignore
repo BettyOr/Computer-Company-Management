@@ -3,3 +3,17 @@
 ################################################################################
 
 /CCM.ConsoleApp/bin/Debug/net6.0
+/CCM.ConsoleApp/obj/Debug/net6.0
+/CCM.DataAccess/bin/Debug/net6.0
+/CCM.DataAccess/obj/Debug/net6.0/ref/CCM.DataAccess.dll
+/CCM.DataAccess/obj/Debug/net6.0/refint/CCM.DataAccess.dll
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.pdb
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.genruntimeconfig.cache
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.csproj.CopyComplete
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.csproj.FileListAbsolute.txt
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.dll
+/CCM.DataAccess/obj/Debug/net6.0/CCM.DataAccess.csproj.CoreCompileInputs.cache
+/CCM.Domain/obj/Debug/net6.0/CCM.Domain.genruntimeconfig.cache
+/CCM.DataAccess/Migrations/20240305081751_initial.cs
+/CCM.DataAccess/Migrations/20240305081751_initial.Designer.cs
+/CCM.DataAccess/Migrations/ApplicationContextModelSnapshot.cs
