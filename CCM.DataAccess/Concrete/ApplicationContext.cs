@@ -49,13 +49,7 @@ namespace CCM.DataAccess.Concrete
         /// </param>
         public ApplicationContext(string connectionString)
             : base(GetOptions(connectionString))
-        {
-        }
-
-        private static DbContextOptions GetOptions(string connectionString)
-        {
-            throw new NotImplementedException();
-        }
+        {  }
 
         /// <summary>
         /// Inicializa un objeto <see cref="ApplicationContext"/>.
