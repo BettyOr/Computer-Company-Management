@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CCM.Domain.Abstract;
+using CCM.Domain.Entities.Common;
 using CCM.Domain.Entities.Types;
 
 namespace CCM.Domain.Entities.Components
@@ -11,7 +12,7 @@ namespace CCM.Domain.Entities.Components
     /// <summary>
     /// Modela una Motherboard de la PC
     /// </summary>
-    public class MotherBoard : IBrand
+    public class MotherBoard : Entity, IBrand
     {
         #region Properties
         /// <summary>
@@ -26,7 +27,14 @@ namespace CCM.Domain.Entities.Components
         /// Tipo deconexión de la motherboard
         /// </summary>
         public ConnectionType ConnectionType { get; }
+       
         #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Requerido por EntityFrameworkCore para migraciones.
+        /// </summary>
+        protected MotherBoard() { } 
 
         /// <summary>
         /// Inicializa un objeto <see cref="MotherBoard"/>
@@ -40,5 +48,6 @@ namespace CCM.Domain.Entities.Components
             Brand = brand;
             ConnectionType = connectionType;
         }
+        #endregion
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CCM.Domain.Abstract;
+using CCM.Domain.Entities.Common;
 using CCM.Domain.Entities.Types;
 
 namespace CCM.Domain.Entities.Components
@@ -12,7 +13,7 @@ namespace CCM.Domain.Entities.Components
     /// <summary>
     /// Modela la memoria RAM de la PC
     /// </summary>
-    public class RAM : IBrand
+    public class RAM : Entity, IBrand
     {
         #region Properties
         /// <summary>
@@ -27,7 +28,15 @@ namespace CCM.Domain.Entities.Components
         /// Tipo de memoria RAM 
         /// </summary>
         public MemoryType MemoryType { get; }
+        
         #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Requerido por EntityFrameworkCore para migraciones.
+        /// </summary>
+        protected RAM() { }
+
         /// <summary>
         /// Inicializa un objeto <see cref="RAM"/>
         /// </summary>
@@ -40,5 +49,6 @@ namespace CCM.Domain.Entities.Components
             Brand = brand;
             MemoryType = memoryType;
         }
+        #endregion
     }
 }
